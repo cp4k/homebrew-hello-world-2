@@ -6,8 +6,8 @@ class HelloWorldSoftware < Formula
   sha256 "6b62de3eb93c649fb06c2a65fcc91106f62c85160ad1586a91bf53eeae9e882f"
   
   depends_on :python
-  depends_on "cp4k/hello-world-software/sdl_image"
-  depends_on "cp4k/hello-world-software/sdl_mixer"
+  depends_on "cp4k/hello-world-2/sdl_image"
+  depends_on "cp4k/hello-world-2/sdl_mixer"
   depends_on "homebrew/python/pygame"
   depends_on "pyqt"
   
