@@ -1,4 +1,4 @@
-class HelloWorldSoftware < Formula
+class HelloWorld2 < Formula
   desc "All the software you need to use Hello World!"
   homepage "http://helloworldbookblog.com"
   url "https://manning-content.s3.amazonaws.com/download/3/8282dda-9631-46db-b9b1-0c6fecb2e43a/HelloWorld2_source_code.zip"
