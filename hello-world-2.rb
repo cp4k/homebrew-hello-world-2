@@ -8,7 +8,7 @@ class HelloWorld2 < Formula
   depends_on :python
   depends_on "cp4k/hello-world-2/sdl_image"
   depends_on "cp4k/hello-world-2/sdl_mixer"
-  depends_on "homebrew/python/pygame"
+  depends_on "cp4k/hello-world-2/pygame"
   depends_on "pyqt"
   
   resource "easygui" do
