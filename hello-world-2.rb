@@ -17,9 +17,7 @@ class HelloWorld2 < Formula
   end
   
   def install
-    resource("easygui").stage { system "python", *Language::Python.setup_install_args(libexec/"vendor") }
-
-    bin.env_script_all_files(libexec/"vendor", :PYTHONPATH => ENV["PYTHONPATH"])
+    resource("easygui").stage { system "python", *Language::Python.setup_install_args(prefix) }
   end
   
   def caveats
