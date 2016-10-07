@@ -6,10 +6,10 @@ class HelloWorld2 < Formula
   sha256 "6b62de3eb93c649fb06c2a65fcc91106f62c85160ad1586a91bf53eeae9e882f"
   
   depends_on "python"
-  depends_on "cp4k/hello-world-2/sdl_image"
+  depends_on "sdl_image"
   depends_on "cp4k/hello-world-2/sdl_mixer"
   depends_on "cp4k/hello-world-2/pygame"
-  depends_on "pyqt"
+  depends_on "cartr/qt4/pyqt"
   
   resource "easygui" do
     url "https://pypi.python.org/packages/source/e/easygui/easygui-0.97.4.tar.gz"

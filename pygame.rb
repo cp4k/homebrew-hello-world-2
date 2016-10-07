@@ -9,7 +9,7 @@ class Pygame < Formula
   option "without-python", "Build without python2 support"
   depends_on :python3 => :optional
   depends_on 'sdl'
-  depends_on 'cp4k/hello-world-2/sdl_image'
+  depends_on 'sdl_image'
   depends_on 'cp4k/hello-world-2/sdl_mixer'
   depends_on 'sdl_ttf'
   depends_on 'smpeg'
