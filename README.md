@@ -2,7 +2,7 @@
 
 This repository contains a Homebrew package that installs all the software you need to use *Hello World! Computer Programming for Kids and Other Beginners, 2nd Edition*.
 
-It also includes customized versions of the `sdl_image` and `sdl_mixer` that work better with the programs in the book.
+It also includes a customized version of `sdl_mixer` that works better with the programs in the book.
 
 To install the book's software with Homebrew:
 
