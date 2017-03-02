@@ -1,9 +1,9 @@
 class HelloWorld2 < Formula
   desc "All the software you need to use Hello World!"
   homepage "http://helloworldbookblog.com"
-  url "https://manning-content.s3.amazonaws.com/download/3/8282dda-9631-46db-b9b1-0c6fecb2e43a/HelloWorld2_source_code.zip"
+  url "https://github.com/cp4k/homebrew-hello-world-2.git", :using => :git, :revision => "1a0df8c7af730a2169069127a21b4795e9f89410"
   version "source"
-  sha256 "6b62de3eb93c649fb06c2a65fcc91106f62c85160ad1586a91bf53eeae9e882f"
+  revision 1
   
   depends_on "python"
   depends_on "sdl_image"
@@ -11,16 +11,11 @@ class HelloWorld2 < Formula
   depends_on "cp4k/hello-world-2/pygame"
   depends_on "cartr/qt4/pyqt"
   
-  resource "easygui" do
-    url "https://pypi.python.org/packages/source/e/easygui/easygui-0.97.4.tar.gz"
-    sha256 "7f5646f3e44c368b444231c599e0c0be696ef192783713be7e59ab6238dc1ce6"
-  end
-  
   def install
-    resource("easygui").stage { system "python", *Language::Python.setup_install_args(prefix) }
+    bin.install "finish-hello-world-2-installation.py"
   end
   
   def caveats
-    "The Hello World! sample code was not installed. You can get it at http://helloworldbookblog.com/downloads/#. Also, make sure to run `brew linkapps`!"
+    "Make sure to run `finish-hello-world-2-installation.py`!"
   end
 end

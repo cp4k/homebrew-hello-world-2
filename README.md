@@ -12,7 +12,7 @@ To install the book's software with Homebrew:
 
 ```
 brew install cp4k/hello-world-2/hello-world-2
-brew linkapps
+finish-hello-world-2-installation.py
 ```
 
 Then, you'll have all the software you need for the book. (You might also want to download the sample code, which you can do at http://helloworldbookblog.com/downloads/#)
