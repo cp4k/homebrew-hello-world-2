@@ -16,7 +16,7 @@ class Pygame < Formula
   depends_on 'jpeg'
   depends_on 'libpng'
   depends_on 'portmidi'
-  depends_on 'homebrew/python/numpy'
+  depends_on 'numpy'
   depends_on "freetype"
 
   def install
