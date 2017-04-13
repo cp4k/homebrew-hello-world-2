@@ -51,7 +51,7 @@ copy_directory(homebrew_prefix+"/opt/python/IDLE.app", "/Applications/IDLE.app")
 print
 print "Installing Qt Designer..."
 
-copy_directory(homebrew_prefix+"/opt/qt/Designer.app", "/Applications/Qt Designer.app")
+copy_directory(homebrew_prefix+"/opt/qt@4/Designer.app", "/Applications/Qt Designer.app")
 
 print
 print "Installation complete! Enjoy the book!"
