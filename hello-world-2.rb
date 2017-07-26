@@ -1,9 +1,9 @@
 class HelloWorld2 < Formula
   desc "All the software you need to use Hello World!"
   homepage "http://helloworldbookblog.com"
-  url "https://github.com/cp4k/homebrew-hello-world-2.git", :using => :git, :revision => "5bd55d5bf1464b91ef6095885f9df978e0ba26c7"
+  url "https://github.com/cp4k/homebrew-hello-world-2.git", :using => :git, :revision => "db0c21393cf2e5314bca2f355a33a77d6c548bf0"
   version "source"
-  revision 2
+  revision 3
   
   depends_on "python"
   depends_on "sdl_image"
