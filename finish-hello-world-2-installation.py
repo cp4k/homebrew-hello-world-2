@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/local/bin/python2
 
 import subprocess, os, shutil
 
@@ -36,7 +36,7 @@ if homebrew_prefix != "/usr/local":
 print "Installing easygui..."
 
 try:
-    run_command(homebrew_prefix+"/bin/pip", "install", "--upgrade", "easygui")
+    run_command(homebrew_prefix+"/bin/pip2", "install", "--upgrade", "easygui")
 except:
     print
     print "WARNING: Easygui installation failed! If easygui (Ch 6 of the book)"
