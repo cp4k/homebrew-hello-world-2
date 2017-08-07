@@ -42,6 +42,16 @@ except:
     print "WARNING: Easygui installation failed! If easygui (Ch 6 of the book)"
     print "         doesn't work, contact cp4khelp@gmail.com !"
     print
+    
+print "Installing Pygame..."
+
+try:
+    run_command(homebrew_prefix+"/bin/pip2", "install", "--upgrade", "pygame")
+except:
+    print
+    print "WARNING: Pygame installation failed! If Pygame (Ch 16-19 of the book)"
+    print "         doesn't work, contact cp4khelp@gmail.com !"
+    print
 
 print
 print "Installing IDLE..."
