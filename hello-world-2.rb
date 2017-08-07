@@ -1,7 +1,7 @@
 class HelloWorld2 < Formula
   desc "All the software you need to use Hello World!"
   homepage "http://helloworldbookblog.com"
-  url "https://github.com/cp4k/homebrew-hello-world-2.git", :using => :git, :revision => "db0c21393cf2e5314bca2f355a33a77d6c548bf0"
+  url "https://github.com/cp4k/homebrew-hello-world-2.git", :using => :git, :revision => "308c311d700674ee93b19e713862d1224d186f4d"
   version "source"
   revision 4
   
