@@ -56,7 +56,7 @@ except:
 print
 print "Installing IDLE..."
 
-copy_directory(homebrew_prefix+"/opt/python@2/IDLE 2.app", "/Applications/IDLE.app")
+copy_directory(homebrew_prefix+"/opt/python@2/IDLE.app", "/Applications/IDLE.app")
 
 print
 print "Installing Qt Designer..."
